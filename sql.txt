@@ -1,8 +1,8 @@
+//Enter records in sql by yourself before logging in since register page not created till now!
 create table usr(uname varchar(40) primary key ,passwd varchar(50),utype varchar(50))
 insert into usr values('anuj','mnnit','student')
 insert into usr values('admin','admin@1234','admin')
 
-create table student(id varchar(10) primary key,name varchar(60),couse varchar(50),branch varchar(50),sem varchar(80))
 create table student(id varchar(10) primary key,name varchar(60),couse varchar(50),branch varchar(50),sem varchar(80))
 login
 	student
