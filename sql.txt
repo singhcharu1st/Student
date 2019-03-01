@@ -1,0 +1,33 @@
+create table usr(uname varchar(40) primary key ,passwd varchar(50),utype varchar(50))
+insert into usr values('anuj','mnnit','student')
+insert into usr values('admin','admin@1234','admin')
+
+create table student(id varchar(10) primary key,name varchar(60),couse varchar(50),branch varchar(50),sem varchar(80))
+create table student(id varchar(10) primary key,name varchar(60),couse varchar(50),branch varchar(50),sem varchar(80))
+login
+	student
+		student home page
+			1. show all record //this works
+			2. search
+			3. logout //this works
+	
+	admin
+		admin home page
+			1. register student
+			2. show all//this works
+			3. delete student
+			4. update student record
+			5. search by id ,name
+			6.logout//this works
+
+menu
+1. student
+	home search   show logout
+
+2. admin
+	home  register delete info update info search logout
+					id
+					name
+
+
+		
